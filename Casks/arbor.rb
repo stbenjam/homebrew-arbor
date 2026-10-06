@@ -1,9 +1,9 @@
 cask "arbor" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.0"
-  sha256 arm:   "9a11f5e85b46337d5c262dca60e9840f90ba70f80ef200b9e1c19379f8b2b784",
-         intel: "fb33e24df5ca41885a70badc7bf6b32ac2275dbdcfe45f3f0c4e35ba0010e4bb"
+  version "0.3.0"
+  sha256 arm:   "ad5f72209941724427984f33f4defb1cf44988a5a0ecacfc1a29cc0ca1934350",
+         intel: "f2077b436387e832a1728dedb27572d844580899fdcc5856b13cbe6b6078c5dd"
 
   url "https://github.com/stbenjam/arbor/releases/download/v#{version}/arbor_v#{version}_darwin_#{arch}.app.zip"
   name "Arbor"

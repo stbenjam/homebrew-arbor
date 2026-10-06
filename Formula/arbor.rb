@@ -5,25 +5,25 @@ class Arbor < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/stbenjam/arbor/releases/download/v0.2.0/arbor_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "d5e3e9e7d607ece2e184cb3ffc5510d9f343b4206872c50917b701321fcad23d"
+      url "https://github.com/stbenjam/arbor/releases/download/v0.3.0/arbor_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "ea8831ba8c0b6e14174a01df720bb6d561d0570955738b5640c95ceb8a07fda8"
     end
 
     on_intel do
-      url "https://github.com/stbenjam/arbor/releases/download/v0.2.0/arbor_v0.2.0_darwin_amd64.tar.gz"
-      sha256 "98783cc3b24d305034378c8fdfd9025865e9c6c62c14368761dee8236b452492"
+      url "https://github.com/stbenjam/arbor/releases/download/v0.3.0/arbor_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "f20fdf7154a24a03a7127d6f0f3c224ef68359c964520d08713aa8cb446dd058"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/stbenjam/arbor/releases/download/v0.2.0/arbor_v0.2.0_linux_arm64.tar.gz"
-      sha256 "5b419420cc3f0d09c060bf97e99a8f6ba1eb4208b2e600cb9bdb7a3f50efffcb"
+      url "https://github.com/stbenjam/arbor/releases/download/v0.3.0/arbor_v0.3.0_linux_arm64.tar.gz"
+      sha256 "e504323c68bcbb82e4a52f7a157733aea37b690247b23de643fadd34d176d08d"
     end
 
     on_intel do
-      url "https://github.com/stbenjam/arbor/releases/download/v0.2.0/arbor_v0.2.0_linux_amd64.tar.gz"
-      sha256 "83e02457aba18d1770bd0836bd4dc4a0be919b2a77598f1aa7e8885b28352f55"
+      url "https://github.com/stbenjam/arbor/releases/download/v0.3.0/arbor_v0.3.0_linux_amd64.tar.gz"
+      sha256 "1a9bcd418accbed14c354fef953682b02e50fa313dee2fe6cb78007cd640466c"
     end
   end
 
